@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Scrimba Scores</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+
+        <div class="field">
+            <h3>HOME</h3>
+            <div class="point-field">
+                <h3 class="points" id="hm-score">0</h3>
+            </div>
+            <div class="add-score">
+                <button class="pnt-btn" id="add-h1" onclick="addH1()">+1</button>
+                <button class="pnt-btn" id="add-h2" onclick="addH1()">+2</button>
+                <button class="pnt-btn" id="add-h3" onclick="addH1()">+3</button>
+            </div>
+        </div>
+        <div class="field">
+            <h3>GUEST</h3>
+            <div class="point-field">
+                <h3 class="points" id="gs-score">0</h3>
+            </div>
+            <div class="add-score">
+                <button class="pnt-btn" id="add-g1" onclick="addG1()">+1</button>
+                <button class="pnt-btn" id="add-g2" onclick="addG2()">+2</button>
+                <button class="pnt-btn" id="add-g3" onclick="addG3()">+3</button>
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>

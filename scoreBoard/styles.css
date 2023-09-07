@@ -1,0 +1,37 @@
+body {
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px auto;
+    height: 385px;
+    width: 575px;
+    background-color: #3abdf8;
+    border: 5px solid #f59e0b;
+    border-radius: 10px;
+}
+
+.point-field {
+    height: 120px;
+    width: 150px;
+    background-color: black;
+    border: 5px solid #f59e0b;
+    border-radius: 6px;
+    margin-bottom: 15px;
+}
+
+.points {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+
+}
+
+.pnt-btn {
+    height: 45px;
+    width: 45px;
+}
